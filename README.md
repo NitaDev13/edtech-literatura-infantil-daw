@@ -8,6 +8,7 @@ Proyecto de Literatura Infantil (9,8) - Desarrollo de una web responsive para la
 Este sitio web es el proyecto integrador del primer trimestre de la asignatura Lenguajes de Marcas. El objetivo principal es demostrar el dominio de las diferentes técnicas de posicionamiento y maquetación en CSS3, utilizando como hilo conductor la literatura infantil.
 
 Calificación obtenida: 9.8/10
+🔗 Ver web en vivo: [Haz clic aquí](https://nitadev13.github.io/edtech-literatura-infantil-daw/)
 
 🛠️ Despliegue Técnico (Maquetación Multi-técnica)
 Para cumplir con los requisitos académicos, he implementado diferentes métodos de maquetación distribuidos estratégicamente:
