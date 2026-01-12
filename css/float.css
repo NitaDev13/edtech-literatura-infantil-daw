@@ -1,0 +1,79 @@
+#autores{
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	color: #28885c;
+	text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.7), 4px 4px 6px green;
+}
+
+#contenido-float{
+	padding: 20px;
+}
+
+aside {
+    width: 250px;
+	float: right;
+	margin-left: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+#form-datos, #form-controles {
+	width: auto; 
+    margin-right: 300px;
+	padding: 15px;
+    border: 1px dashed #666;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid #5a189a;
+	padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #5a189a;
+    padding: 0 10px;
+}
+
+input[type="text"], input[type="number"], input[type="email"], select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    display: inline-block;
+    min-width: 150px;
+    font-weight: 500;
+}
+
+input[type="submit"], input[type="reset"], button {
+    background-color: #5a189a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#contenido-float::after {
+    content: "";
+	display: table;
+	clear: both;
+}
+
+#form-controles p span {
+	display: inline-block;
+	margin-right: 25px;
+	margin-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+	height: 40px;
+	resize: none;
+}

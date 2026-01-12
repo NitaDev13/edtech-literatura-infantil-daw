@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="css/general.css">
+		<link type="text/css" rel="stylesheet" href="css/float.css">
+		<link type="text/css" rel="stylesheet" href="css/imprimir.css" media="print">
+		<link type="text/css" rel="stylesheet" href="css/movil.css" media="screen and (max-width: 600px)">
+		<link type="text/css" rel="stylesheet" href="css/pc.css" media="screen and (min-width: 601px)">
+		<title>Literatura Infantil: Autores Destacados</title>
+	</head>
+	
+	<body>
+	<div class="jello">Jello</div>
+		<header>
+			<h1 id=autores>Autores Destacados de la Literatura Infantil</h1>
+			<img src="img/autores.png" alt="Logo autores">
+		</header>
+			
+		<nav>
+			<ul class="menu-horizontal">
+				<li><a href="float.html" class="activo">FLOAT (Autores)</a></li>
+				<li><a href="absolute.html">ABSOLUTE (Personajes)</a></li>
+				<li><a href="table.html">DISPLAY TABLE (Géneros)</a></li>
+				<li><a href="flex.html">DISPLAY FLEX (Edades)</a></li>
+				<li><a href="index.html">DISPLAY GRID (Editoriales)</a></li>
+			</ul>
+		</nav>
+		
+		<main id="contenido-float">
+			<form action="grid.html" method="GET">
+			
+				<aside>
+					<article>
+						<h4>Olga de Dios</h4>
+						<p>Ilustradora conocida por el éxito de <em>Monstruo Rosa</em>, promotora de la diversidad.</p>
+					</article>
+					
+					<article>
+						<h4>J.K. Rowling</h4>
+						<p>Autora británica de la saga <em>Harry Potter</em>. Sus obras combinan fantasía, amistad y la lucha contra el mal.</p>
+					</article>
+    
+					<article>
+					<h4>Maurice Sendak</h4>
+					<p>Famoso por <em>Donde Viven los Monstruos</em>, sus obras exploran las emociones y miedos de la infancia con honestidad.</p>
+					</article>
+				</aside>
+			
+				<h2>¡Participa! Encuesta sobre Autores Favoritos y Literatura Infantil</h2>
+				
+				<section id="form-datos">
+					<fieldset>
+						<legend>Datos de Contacto e Intereses</legend>
+						
+						<p>
+							<label for="nombre">Nombre Completo:</label>
+							<input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required maxlength="30" size="30"> 
+						</p>
+						
+						<p>
+							<label for="edad">Tu Edad:</label>
+							<input type="number" id="edad" name="edad" min="10" max="99" value="10">
+						</p>
+						
+						<p>
+							<label for="email">Email de Contacto:</label>
+							<input type="email" id="email" name="email" list="dominios">
+							<datalist id="dominios">
+								<option value="@gmail.com">
+								<option value="@hotmail.com">
+								<option value="@outlook.com">
+							</datalist>
+						</p>
+					</fieldset>
+					
+					<h2>Autores Clásicos y Modernos</h2>
+					
+					<article>
+						<h3>Roald Dahl</h3>
+						<p>Famoso por su humor negro y su visión de los adultos como seres ridículos. Entre sus libros destacan títulos como <em>Charlie y la Fábrica de Chocolate</em>, <em>Matilda</em> y <em>Las Brujas</em>.</p>
+					</article>
+					
+				</section>
+				
+				<section id="form-controles">
+				<h2>Preferencias</h2>
+				
+				<fieldset>
+                    <legend>Opciones</legend>
+
+                    <p>
+                        <label>¿Qué género literario prefieres?</label><br>
+                        <label for="fantasia">Fantasía</label>
+                        <input type="radio" id="fantasia" name="genero" value="fantasia" checked>
+                        
+                        <label for="realista">Ficción Realista</label>
+                        <input type="radio" id="realista" name="genero" value="realista">
+                    </p>
+                    
+                    <p>
+                        <label>¿Qué autor has leído? (Selección Múltiple)</label><br>
+
+					<span>
+					   <input type="checkbox" id="aaron" name="leido" value="Aaron Blabey">
+                        <label for="aaron">Aaron Blabey</label>
+                    </span>
+					
+					<span>
+                        <input type="checkbox" id="alberto" name="leido" value="Alberto Celdran">
+                        <label for="alberto">Alberto Celdran</label>
+					</span>
+					
+					<span>
+						<input type="checkbox" id="proximo" name="leido_proximo" value="Proximo" disabled> 
+						<label for="proximo">Neil Gaiman (Próximamente en el listado)</label>
+					</span>
+					</p>
+                    
+                    <p>
+                        <label for="color">¿Cuál sería tu color favorito para una portada de Literatura Infantil?</label>
+                        <input type="color" id="color" name="color_fav">
+                    </p>
+
+                    <p>
+                        <label for="autor_fav">¿Cuál es tu autor favorito entre los siguientes?</label>
+                        <select id="autor_fav" name="autor_fav">
+                            <option value="dahl" selected>Roald Dahl</option> <option value="blabey">Aaron Blabey</option>
+                            <option value="olga">Olga de Dios</option>
+                        </select>
+                    </p>
+					
+					<p>
+					<label for="comentarios">Comentarios del Administrador (Solo Lectura):</label>
+					<textarea id="comentarios" name="comentarios" readonly>¡Gracias por participar en nuestra encuesta sobre literatura infantil! Sus datos serán procesados inmediatamente.</textarea>
+					</p>
+					
+                </fieldset>
+				
+				<p>
+                    <input type="submit" value="Enviar Datos">
+                    <input type="reset" value="Limpiar Formulario">
+                    <button type="button">Cancelar</button>
+                </p>
+				</section>
+			</form>
+		</main>
+			
+		<footer>
+			<p>
+				&copy;
+				
+				2025 Tania Algarra Cuenca 1ºDAW
+			</p>
+		</footer>
+	</body>
+</html>

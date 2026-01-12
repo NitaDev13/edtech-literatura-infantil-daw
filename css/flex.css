@@ -1,0 +1,30 @@
+#edades{
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	color: #e09c4c;
+	text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.7), 4px 4px 6px orange;
+}
+
+#flex-edades{
+	display: flex; 
+	flex-wrap: wrap;
+    justify-content: center;
+	gap:20px;
+	padding: 20px 0;
+}
+
+.lista-obligatoria ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.edad-bloque {
+    width: calc(33.333% - 20px);
+	border: 1px solid #e09c4c;
+    padding: 15px;
+    background-color: #fff9e6;
+}
+
+h2{
+	margin-top: 45px;
+	text-align: center;
+}

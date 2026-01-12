@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="css/general.css">
+		<link type="text/css" rel="stylesheet" href="css/grid.css">
+		<link type="text/css" rel="stylesheet" href="css/imprimir.css" media="print">
+		<link type="text/css" rel="stylesheet" href="css/movil.css" media="screen and (max-width: 600px)">
+		<link type="text/css" rel="stylesheet" href="css/pc.css" media="screen and (min-width: 601px)">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+		<title>Literatura Infantil: Editoriales y Tendencias</title>
+	</head>
+	
+	<body>
+		<div class="jello">Jello</div>
+		<header>
+			<h1 id=editorial>El Mundo Editorial de la Literatura Infantil</h1>
+			<img src="img/editorial.png" alt="Logo libros">
+		</header>
+		
+		<nav>
+			<ul class="menu-horizontal">
+				<li><a href="float.html">FLOAT (Autores)</a></li>
+				<li><a href="absolute.html">ABSOLUTE (Personajes)</a></li>
+				<li><a href="table.html">DISPLAY TABLE (Géneros)</a></li>
+				<li><a href="flex.html">DISPLAY FLEX (Edades)</a></li>
+				<li><a href="index.html" class="activo">DISPLAY GRID (Editoriales)</a></li>
+			</ul>
+		</nav>
+		
+		<main id="contenido-grid">
+			<h2>Ejemplos de Editoriales que impulsan la Literatura Infantil</h2>
+			
+			<section id="grid-editoriales">
+			<h2 class="visually-hidden">Ejemplos</h2>
+			
+				<article class="editorial-bloque">
+					<h3>Editorial 1: Kalandraka</h3>
+					<p>Famosa por sus álbumes ilustrados y la colección "Libros para soñar", con foco en la <mark>calidad artística</mark>.</p>
+				</article>	
+				
+				<article class="editorial-bloque">
+					<h3>Editorial 2: Edebé</h3>
+					<p>Gran editorial con un <mark>amplio catálogo</mark>, especializada en literatura escolar y series de ficción juvenil.</p>
+				</article>
+				
+				<article class="editorial-bloque">
+					<h3>Editorial 3: Anaya Infantil</h3>
+					<p>Una de las más grandes, con una importante presencia en el <mark>ámbito educativo</mark> y libros de texto.</p>
+				</article>
+				
+				<article class="editorial-bloque">
+					<h3>Editorial 4: Edelvives</h3>
+					<p>Especializada en <mark>valores y ética</mark>, con colecciones que abarcan desde prelectores hasta jóvenes.</p>
+				</article>
+				
+				<article class="editorial-bloque">
+					<h3>Editorial 5: Lata de Sal</h3>
+					<p>Una editorial independiente conocida por su selección de <mark>historias atrevidas</mark> y temas de diversidad.</p>
+				</article>
+				
+				<section class="bloque-multimedia" id="multimedia-audio">
+					<h2>Audio Cuento</h2>
+					<audio controls autoplay muted>
+						<source src="audio/viveron_felices.mp3" type="audio/mpeg">
+						<source src="audio/viveron_felices.ogg" type="audio/ogg">
+						<p>Tu navegador no soporta el elemento de audio.</p>
+					</audio>
+				</section>
+			
+				<section class="bloque-multimedia" id="video-YouTube">
+					<h2>Cuento</h2>
+					<iframe  
+						height="180" 
+						src="https://www.youtube.com/embed/e-QDJHn2D7A?si=rWNWUMOuKqN71dsK" 
+						title="YouTube video player" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+						allowfullscreen> 
+					</iframe>
+				</section> <!-- Nota: el iframe de YouTube solo funciona si la página se abre desde un servidor local (no con file:///). -->
+
+				<section class="bloque-multimedia" id="multimedia-video">
+					<h2>Video lectura</h2>
+				
+					<video height="180" controls autoplay>
+				
+					<source 
+						src="video/niña_leyendo.mp4" 
+						type='video/MP4; codecs="avc1.42E01E, mp4a.40.2"'>
+						
+					<source 
+						src="video/niña_leyendo.webm" 
+						type='video/webm; codecs="vp8, vorbis"'>
+						
+						<p>Tu navegador no soporta la etiqueta de video.</p>
+					</video>
+				</section>	
+
+				<section class="bloque-multimedia" id="mapa-ubicacion">
+					<h2>Mapa de Ubicación</h2>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.262529944365!2d-3.703582484307525!3d40.41677507936162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422998a49c9f09%3A0xc47b9932144d6507!2sMadrid!5e0!3m2!1sen!2ses!4v1678897544000!5m2!1sen!2ses" 
+						height="180" style="border:0;">
+					</iframe>
+				</section>
+			
+			</section>
+			
+		</main>
+				
+		<footer>
+			<p>
+				&copy;
+				
+				2025 Tania Algarra Cuenca 1ºDAW
+			</p>
+		</footer>
+	</body>
+</html>

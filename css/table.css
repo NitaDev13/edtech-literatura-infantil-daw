@@ -1,0 +1,63 @@
+html{
+	margin:0;
+	padding: 0;
+}
+
+#generos{
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	color: #e3ca53;
+	text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.7), 4px 4px 6px gold;
+}
+
+body{
+	display:table;
+}
+
+h2{
+	text-align: center;
+	margin-top: 35px;
+}
+
+header, nav, main, footer{
+	display: table-row;
+}
+
+#tabla-generos{
+	border: 1px solid;
+	padding: 15px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#tabla-generos th{
+	border: 1px solid;
+	padding: 15px;
+	vertical-align: top;
+	background-color: #5b5577;
+	color: #ffffff;
+}
+
+#tabla-generos td{
+	border: 1px solid;
+	padding: 15px;
+	background-color: #cec9e6;
+}
+
+#tabla-generos td p{
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+caption{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 15px 0;
+	caption-side: top;
+	text-align: center;
+}

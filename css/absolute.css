@@ -1,0 +1,151 @@
+#personajes{
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	color: #7d439a;
+	text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.7), 4px 4px 6px purple;
+}
+#cabecera-tabla{
+	background-color: rgba(255, 255, 0, 0.5);
+	background-image: url("../img/css3.png");
+	background-repeat: no-repeat;
+	background-position: 20px 70px;
+	background-size: 50px;
+	text-align: center;
+	font-size: 300%; 
+	padding-left: 200px;
+}
+
+#contenido-absolute {
+    position: relative;
+    width: 90%; /* 90% = 90% del contenedor padre (ancho flexible) */
+    margin: 20px auto;
+    border: 3px solid #333;
+	padding-right: 25%;
+    padding-bottom: 50px;
+	background-color: #f8f8f8;
+	overflow: hidden;
+}
+
+#contenido-1 {
+    width: 45%;
+    float: left;
+	padding: 10px;
+    box-sizing: border-box;
+}
+
+#contenido-2 {
+    width: 30%;
+    float: left;
+	padding: 10px;
+    box-sizing: border-box;
+}
+
+#contenido-lateral {
+    position: absolute;
+	top: 20px; 
+    right: 20px; 
+    width: 20%; 
+    padding: 10px;
+    background-color: #e0f7fa;
+    border: 1px solid #00bcd4;
+}
+
+.imagen-personaje{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 5px auto;
+}
+
+#tabla-ejercicio {
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 20px;
+    font-size: 0.9em;
+	border-spacing: 15px;
+}
+
+#cabecera-tabla p {
+    font-size: 0.4em;
+	margin: 0;
+    padding: 0;
+}
+
+#tabla-ejercicio td, #tabla-ejercicio th {
+    border: 1px solid #333;
+    padding: 8px;
+    vertical-align: top;
+}
+
+#tabla-ejercicio tfoot td {
+    font-size: 3rem; /*3rem = 48px (asumiendo base 16px)*/
+	background-color: rgba(255, 255, 0, 0.5);
+	color: maroon;
+	text-align: center;
+    font-style: italic;
+}
+
+#tabla-ejercicio h3 {
+    margin-top: 0;
+    font-size: 1.1em; /* 1.1em = 17.6px (1.1 veces el tamaño de fuente heredado) */
+    color: #444;
+}
+
+#tabla-ejercicio tbody tr:nth-child(even) { /* Fila 2 (par) */
+    background-color: #37778c; /* Azules */
+}
+
+#tabla-ejercicio tbody tr:nth-child(odd) { /* Fila 1 y 3 (impares) */
+    background-color: #378c65; /* Verdes */
+}
+
+.categoria{
+	font-weight: bold;
+}
+
+.ol-type-a { 
+    list-style-type: upper-alpha; /* A, B, C */
+}
+
+.ol-type-min-a { 
+    list-style-type: lower-alpha; /* a, b, c */
+}
+.ol-type-i { 
+    list-style-type: upper-roman; /* I, II, III */
+}
+
+.ul-type-disc { 
+    list-style-type: disc; /* Círculo sólido */
+}
+.ul-type-circle { 
+    list-style-type: circle; /* Círculo vacío */
+}
+.ul-type-square { 
+    list-style-type: square; /* Cuadrado sólido */
+}
+
+dt{
+	text-decoration: underline;
+}
+
+#list-image li {
+    list-style-image: url("img/icono-lista.png");
+	list-style-position: inside;
+}
+
+.background-img-cell {
+    background-image: url("../img/fondo-patron.png");
+	background-repeat: repeat;
+    background-size: 50px;  
+    color: #000;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+.background-img-cell ul {
+    list-style-type: none; 
+	padding-left: 0;
+}
+	
+#list-image li {
+	list-style-image: url("../img/icono-lista.png"); 
+    list-style-position: inside;
+} 
