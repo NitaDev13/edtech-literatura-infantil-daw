@@ -1,5 +1,5 @@
 # edtech-literatura-infantil-daw
-![Captura de la web](Captura_web.png)
+<img width="1785" height="912" alt="Captura_web" src="https://github.com/user-attachments/assets/32c6dea1-07fa-43ff-8319-a30cfa05dc10" />
 Proyecto de Literatura Infantil (9,8) - Desarrollo de una web responsive para la asignatura de Lenguajes de Marcas (1er Trimestre DAW).
 
 📚 Literatura Infantil: Una Aventura Digital
@@ -32,6 +32,6 @@ Aunque el proyecto es estrictamente académico, he aplicado mis conocimientos co
 
 Proyecto desarrollado para el IES San Vicente - Diciembre 2025.
 
-<img width="1785" height="912" alt="Captura_web" src="https://github.com/user-attachments/assets/32c6dea1-07fa-43ff-8319-a30cfa05dc10" />
+
 
 
